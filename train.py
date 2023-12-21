@@ -6,10 +6,10 @@ import os
 
 # Parse arguments
 parser = argparse.ArgumentParser()
-parser.add_argument("-config", default="D:/DL/ACNet/configs/new.yml")
+parser.add_argument("-config", default="D:/DL/socialea-main/configs/new.yml")
 parser.add_argument("-data_root", default="D:\Datasets/nuScenes")
 parser.add_argument("-data_dir", default="D:\Datasets/nuScenes_processed")
-parser.add_argument("-output_dir", default="D:\DL\ACNet\outputs")
+parser.add_argument("-output_dir", default="D:\DL\socialea-main\outputs")
 parser.add_argument("-num_epochs",  default=120)
 parser.add_argument("-checkpoint", required=False)
 args = parser.parse_args()
