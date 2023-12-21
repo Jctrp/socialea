@@ -6,7 +6,7 @@ import os
 
 # Parse arguments
 parser = argparse.ArgumentParser()
-parser.add_argument("-config", default="D:/DL/socialea-main/configs/new.yml")
+parser.add_argument("-config", default="D:/DL/socialea-main/configs/ant.yml")
 parser.add_argument("-data_root", default="D:\Datasets/nuScenes")
 parser.add_argument("-data_dir", default="D:\Datasets/nuScenes_processed")
 parser.add_argument("-output_dir", default="D:\DL\socialea-main\outputs")
