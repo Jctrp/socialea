@@ -12,8 +12,7 @@ To perform data preprocessing, please refer to [PGP](https://github.com/nachiket
 # Code Implementation
  Suppose that the data has undergone proper preprocessing and has been appropriately placed in their respective directory locations.
 
- ## evaluate
- Just run
+ To evaluate, just run:
  
  ```python
  python evaluate.py -config [XX/configs/ant.yml] -data_root [YOURS] -data_dir [YOURS] -output_dir [YOURS] -checkpoint [XX/outputs/checkpoints/best.tar]
