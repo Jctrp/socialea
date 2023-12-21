@@ -18,13 +18,13 @@ def preprocess_data(cfg: Dict, data_root: str, data_dir: str, compute_stats=True
     :param extract: Flag, whether to extract data
     """
 
-    # String describing dataset type  描述数据集类型的字符串
+    # String describing dataset type  
     ds_type = cfg['dataset'] + '_' + cfg['agent_setting'] + '_' + cfg['input_representation']
 
-    # Get dataset specific args  获取数据集特定的参数
+    # Get dataset specific args  
     specific_args = get_specific_args(cfg['dataset'], data_root, cfg['version'] if 'version' in cfg.keys() else None)
 
-    # Compute stats  计算状态
+    # Compute stats 
     if compute_stats:
         train_set = initialize_dataset(ds_type, ['compute_stats', data_dir, cfg['train_set_args']] + specific_args)
         val_set = initialize_dataset(ds_type, ['compute_stats', data_dir, cfg['val_set_args']] + specific_args)
@@ -50,7 +50,6 @@ def compute_dataset_stats(dataset_splits: List[TrajectoryDataset], batch_size: i
     :param verbose: Whether to print progress
     """
     # Check if all datasets have been initialized with the correct mode
-    # 检查是否所有数据集都已使用正确的模式初始化
     for dataset in dataset_splits:
         if dataset.mode != 'compute_stats':
             raise Exception('Dataset mode should be compute_stats')
