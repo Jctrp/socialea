@@ -1,7 +1,7 @@
 import torch.optim
 import torch.utils.data as torch_data
 from typing import Dict
-from initialization import initialize_prediction_model, initialize_metric,\
+from train_eval.initialization import initialize_prediction_model, initialize_metric,\
     initialize_dataset, get_specific_args
 import torch
 import time

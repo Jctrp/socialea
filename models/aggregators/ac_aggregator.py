@@ -2,7 +2,7 @@ from models.encoders.encoder import PredictionEncoder
 import torch
 import torch.nn as nn
 from typing import Dict
-from ACNet.models.pe import PositionalEncoding
+from socialea.models.pe import PositionalEncoding
 
 # Initialize device:
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")

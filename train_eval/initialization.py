@@ -81,7 +81,7 @@ def initialize_aggregator(aggregator_type: str, aggregator_args: Union[Dict, Non
     """
     # TODO: Update as we add more aggregator types
     aggregator_mapping = {
-        'ac_aggregator': ACInteraction,
+        'ac_aggregator': ACInteraction
     }
 
     if aggregator_args:

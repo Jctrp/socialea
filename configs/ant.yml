@@ -42,7 +42,7 @@ encoder_args:
 
 
 # Aggregator parameters
-aggregator_type: 'ep'
+aggregator_type: 'ac_aggregator'
 aggregator_args:
   hidden_size: 32
   num_heads: 4
@@ -52,7 +52,7 @@ aggregator_args:
 
 
 # Decoder parameters
-decoder_type: 'ep'
+decoder_type: 'query'
 decoder_args:
   num_modes: 10
   op_len: 12

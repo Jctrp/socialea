@@ -5,11 +5,11 @@ import os
 
 # Parse arguments
 parser = argparse.ArgumentParser()
-parser.add_argument("-config", default="D:\DL\ACNet\configs/ant.yml")
+parser.add_argument("-config", default="D:/DL/socialea-main/configs/ant.yml")
 parser.add_argument("-data_root", default="D:\Datasets/nuScenes")
 parser.add_argument("-data_dir", default="D:\Datasets/nuScenes_processed")
-parser.add_argument("-output_dir", default="D:\DL\ACNet\outputs/ablation_results/FOR_PAPER/")
-parser.add_argument("-checkpoint", default="D:\DL\ACNet\outputs/ablation_results/FOR_PAPER/best.tar")
+parser.add_argument("-output_dir", default="D:\DL\socialea-main\outputs")
+parser.add_argument("-checkpoint", default="D:\DL\socialea-main\outputs/checkpoints/best.tar")
 args = parser.parse_args()
 
 
