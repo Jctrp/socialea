@@ -8,6 +8,7 @@ Accurately predicting the future trajectory and behavior of trafﬁc participant
 
 # Data Preparation
 To perform data preprocessing, please refer to [PGP](https://github.com/nachiket92/PGP), as this work utilizes its project structure.
+The environment configuration is also consistent with it.
 
 # Code Implementation
  Suppose that the data has undergone proper preprocessing and has been appropriately placed in their respective directory locations.
