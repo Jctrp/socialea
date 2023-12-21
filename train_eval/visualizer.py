@@ -69,8 +69,6 @@ class Visualizer:
         """
         Returns list of list of indices for generating gifs for the nuScenes val set.
         Instance tokens are hardcoded right now. I'll fix this later (TODO)
-        返回用于为nuScenes值集生成动图的索引列表；
-        实例tokens是硬编码的。
         """
         token_list = get_prediction_challenge_split('val', dataroot=self.ds.helper.data.dataroot)
         instance_tokens = [token_list[idx].split("_")[0] for idx in range(len(token_list))]
@@ -91,7 +89,6 @@ class Visualizer:
     def generate_nuscenes_gif(self, idcs: List[int]):
         """
         Generates gif of predictions for the given set of indices.
-        为给定的索引集生成预测的gif。
         :param idcs: val set indices corresponding to a particular instance token.
         """
 
