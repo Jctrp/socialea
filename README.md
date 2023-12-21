@@ -1,5 +1,5 @@
 # socialea
-Official PyTorch code for paper "Q-EANet: Implicit social modeling for trajectory prediction via experience-anchored queries"
+Official PyTorch code for paper "[Q-EANet: Implicit social modeling for trajectory prediction via experience-anchored queries](http://doi.org/10.1049/itr2.12477 )"
 
 # Overview
 ![image](images/Joint_left_turn.gif)
