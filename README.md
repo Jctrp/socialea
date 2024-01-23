@@ -18,3 +18,15 @@ The environment configuration is also consistent with it.
  ```python
  python evaluate.py -config [XX/configs/ant.yml] -data_root [YOURS] -data_dir [YOURS] -output_dir [YOURS] -checkpoint [XX/outputs/checkpoints/best.tar]
  ```
+
+# Citation
+If you find this repository interesting and it has inspired you in certain ways, please consider citing our work:
+```
+@article{chen2023q,
+  title={Q-EANet: Implicit social modeling for trajectory prediction via experience-anchored queries},
+  author={Chen, Jiuyu and Wang, Zhongli and Wang, Jian and Cai, Baigen},
+  journal={IET Intelligent Transport Systems},
+  year={2023},
+  publisher={Wiley Online Library}
+}
+```
