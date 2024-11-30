@@ -23,11 +23,14 @@ The environment configuration is also consistent with it.
 # Citation
 If you find this repository interesting and it has inspired you in certain ways, please consider citing our work:
 ```
-@article{chen2023q,
+@article{chen2024q,
   title={Q-EANet: Implicit social modeling for trajectory prediction via experience-anchored queries},
   author={Chen, Jiuyu and Wang, Zhongli and Wang, Jian and Cai, Baigen},
   journal={IET Intelligent Transport Systems},
-  year={2023},
+  volume={18},
+  number={6},
+  pages={1004--1015},
+  year={2024},
   publisher={Wiley Online Library}
 }
 ```
